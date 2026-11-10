@@ -160,3 +160,20 @@ body {
   color: #4b5563;
   line-height: 1.4;
 }
+
+* Hero Image Styling */
+.hero-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Card Image Styling (replacing the old .box styles) */
+.card img.card-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 4px solid #3882f6;
+}
